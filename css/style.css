@@ -78,7 +78,7 @@ header a{
     background-color: #4285F4;
 }
 #project{
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/bg_02.jpg') center center no-repeat;
+    background: linear-gradient(rgba(56, 89, 255, 0.611), rgba(34, 71, 255, 0.611)), url('../images/bg_02.jpg') center center no-repeat;
     padding-bottom: 10rem;
     text-align: center;
 }
