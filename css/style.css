@@ -1,0 +1,141 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=The+Nautigal&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+.header {
+    padding-bottom: 9rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/bg_01.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+header .h1{
+    padding-top: 7rem;
+    padding-bottom: 1.5rem;
+    font-size: 80px;
+    color: white;
+}
+header a{
+    font-size: 20px;
+    color: white;
+}
+.nav li{
+    margin: 20px;
+}
+.navbar .navbar-brand{
+    font-family: 'The Nautigal';
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#about{
+    /* background: gray; */
+}
+.about-inner{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.about-inner h1 {
+    color: #4285F4;
+}
+#skill{
+    padding-top: 1rem;
+}
+#skill h1 {
+    text-align: center;
+    color: #4285F4;
+}
+#education h1{
+    text-align: center;
+    color: #4285F4;
+}
+
+.skillHover{
+    background: #ffffff;
+    color: #4285F4;
+}
+.skill{
+    color: #4285F4;
+    margin: auto;
+    font-size: 150px;
+}
+.cardTitle{
+    color: #4285F4;
+    margin: auto;
+}
+.skillHover:hover ,.skillHover:hover i,.skillHover:hover h5{
+    color: #ffffff;
+    background-color: #4285F4;
+}
+#project{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/bg_02.jpg') center center no-repeat;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+#project h1{
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+}
+#project h5{
+    color: #4285F4;
+    margin: 15px;
+}
+#project p{
+    margin: 15px;
+    font-family: 'M PLUS Rounded 1c';
+}
+.bar{
+    background: #4285F4;
+    width: 220px;
+    height: 4px;
+    margin: auto;
+}
+.barLeft{
+    background: #4285F4;
+    width: 200px;
+    height: 4px;
+}
+#contact{
+}
+.contact{
+    margin: auto;
+}
+#contact h1{
+    padding-top: 2.5rem;
+    padding-bottom: 0rem;
+    text-align: center;
+    color:#4285F4;
+}
+#contact form{
+    padding-bottom: 2rem;
+}
+#footer{
+    background-color: #4285F4;
+    color: #ffffff;
+}
+.logo{
+    
+    color: white;
+    font-size: 30px;
+    margin: 12px;
+}
+.copyright{
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+}
+.copyright a{
+    color: #ffffff;
+}
